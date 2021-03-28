@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* Глобальный  border-box*/
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Конец глобальный  border-box*/
+/* Базовый сброс */
+.link {
+  text-decoration: none;
+}
+
+.list {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+.address {
+  font-style: normal;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Конец базовый сброс */
+.logo {
+  display: block;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #2196f3;
+}
+
+.logo__box {
+  color: #000000;
+}
+
+.logo__box--inverse {
+  color: #ffffff;
+}
+
+.footer__logo {
+  margin-bottom: 20px;
+}
+/*# sourceMappingURL=main.css.map */
