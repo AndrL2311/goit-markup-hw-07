@@ -681,4 +681,59 @@ body {
   text-transform: uppercase;
   color: #ffffff;
 }
+
+.social__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style-type: none;
+  margin-top: 16px;
+  padding-bottom: 0;
+}
+
+.social__item:not(:first-child) {
+  margin-left: 10px;
+}
+
+.social__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social__link--dark {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social__link:hover, .social__link:focus {
+  background-color: #2196f3;
+}
+
+.social__link:hover .social__svg,
+.social__link:focus .social__svg {
+  fill: #ffffff;
+}
+
+.social__svg {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 /*# sourceMappingURL=main.css.map */
