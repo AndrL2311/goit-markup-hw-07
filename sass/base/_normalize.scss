@@ -23,3 +23,13 @@ img {
   max-width: 100%;
 }
 /* Конец базовый сброс */
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+body {
+  font-family: $main-fond;
+  background-color: $color1;
+}

@@ -1,0 +1,47 @@
+/* Телефон и mail */
+
+.kontakt__list {
+  display: flex;
+  & .kontakt__item:not(:first-child) {
+    margin-left: 50px;
+  }
+}
+
+.kontakt__icon-smartphone {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: $text-color;
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.kontakt__icon-mail {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: $text-color;
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.kontakt__link {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: $text-color;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+
+  &:hover .kontakt__icon-smartphone,
+  &:focus .kontakt__icon-smartphone,
+  &:hover .kontakt__icon-mail,
+  &:focus .kontakt__icon-mail {
+    fill: $accent-color;
+  }
+}
