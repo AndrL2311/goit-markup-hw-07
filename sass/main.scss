@@ -1,13 +1,16 @@
 @import './utils/variables';
 @import './base/normalize';
+
 @import './components/logo';
 @import './components/navigation';
 @import './components/kontakt';
-
+@import './components/social-connect';
 @import './components/button';
+
 @import './layout/header';
 @import './layout/hero';
 @import './components/modal';
 @import './layout/properties';
 @import './layout/employment';
-@import './components/social-connect';
+
+@import './layout/team';
