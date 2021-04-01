@@ -63,7 +63,7 @@
 }
 
 // Кнопка секции footer
-.form-page-footer__button {
+.page-footer__button {
   @extend %button;
 
   position: relative;
@@ -72,7 +72,7 @@
   // text-align: center;
 }
 
-.icon-send {
+.page-footer__icon-send {
   position: absolute;
   right: 28px;
   top: 50%;

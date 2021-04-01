@@ -230,7 +230,7 @@ body {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hero__button, .form-page-footer__button, .modal__button-submit {
+.hero__button, .page-footer__button, .modal__button-submit {
   min-width: 200px;
   min-height: 50px;
   color: #ffffff;
@@ -254,7 +254,7 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hero__button:hover, .form-page-footer__button:hover, .modal__button-submit:hover, .hero__button:focus, .form-page-footer__button:focus, .modal__button-submit:focus {
+.hero__button:hover, .page-footer__button:hover, .modal__button-submit:hover, .hero__button:focus, .page-footer__button:focus, .modal__button-submit:focus {
   background-color: #188ce8;
 }
 
@@ -292,13 +292,13 @@ body {
   border-radius: 4px;
 }
 
-.form-page-footer__button {
+.page-footer__button {
   position: relative;
   padding-left: 28px;
   padding-right: 28px;
 }
 
-.icon-send {
+.page-footer__icon-send {
   position: absolute;
   right: 28px;
   top: 50%;
@@ -934,13 +934,13 @@ body {
   margin-left: 93px;
 }
 
-.form-page-footer {
+.page-footer__form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.form-page-footer__input {
+.page-footer__input {
   min-width: 350px;
   min-height: 50px;
   margin-right: 12px;
@@ -958,11 +958,11 @@ body {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-page-footer__input:focus {
+.page-footer__input:focus {
   border-color: #2196f3;
 }
 
-.form-page-footer__input::-webkit-input-placeholder {
+.page-footer__input::-webkit-input-placeholder {
   font-size: 16px;
   line-height: 1.25;
   display: -webkit-box;
@@ -973,7 +973,7 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.form-page-footer__input:-ms-input-placeholder {
+.page-footer__input:-ms-input-placeholder {
   font-size: 16px;
   line-height: 1.25;
   display: -ms-flexbox;
@@ -984,7 +984,7 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.form-page-footer__input::-ms-input-placeholder {
+.page-footer__input::-ms-input-placeholder {
   font-size: 16px;
   line-height: 1.25;
   display: -ms-flexbox;
@@ -995,7 +995,7 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.form-page-footer__input::placeholder {
+.page-footer__input::placeholder {
   font-size: 16px;
   line-height: 1.25;
   display: -webkit-box;
