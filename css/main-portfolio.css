@@ -57,7 +57,7 @@ body {
   color: #ffffff;
 }
 
-.footer__logo {
+.page-footer__logo {
   margin-bottom: 20px;
 }
 
@@ -117,17 +117,17 @@ body {
   color: #2196f3;
 }
 
-.kontakt__list {
+.contakt__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.kontakt__list .kontakt__item:not(:first-child) {
+.contakt__list .contakt__item:not(:first-child) {
   margin-left: 50px;
 }
 
-.kontakt__icon-smartphone {
+.contakt__icon-smartphone {
   width: 10px;
   height: 16px;
   margin-right: 10px;
@@ -136,7 +136,7 @@ body {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.kontakt__icon-mail {
+.contakt__icon-mail {
   width: 16px;
   height: 12px;
   margin-right: 10px;
@@ -145,7 +145,7 @@ body {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.kontakt__link {
+.contakt__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -161,18 +161,18 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.kontakt__link:hover, .kontakt__link:focus {
+.contakt__link:hover, .contakt__link:focus {
   color: #2196f3;
 }
 
-.kontakt__link:hover .kontakt__icon-smartphone,
-.kontakt__link:focus .kontakt__icon-smartphone,
-.kontakt__link:hover .kontakt__icon-mail,
-.kontakt__link:focus .kontakt__icon-mail {
+.contakt__link:hover .contakt__icon-smartphone,
+.contakt__link:focus .contakt__icon-smartphone,
+.contakt__link:hover .contakt__icon-mail,
+.contakt__link:focus .contakt__icon-mail {
   fill: #2196f3;
 }
 
-.button-hero, .form-footer__button, .button-modal-submit {
+.hero__button, .form-page-footer__button, .modal__button-submit {
   min-width: 200px;
   min-height: 50px;
   color: #ffffff;
@@ -196,18 +196,18 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button-hero:hover, .form-footer__button:hover, .button-modal-submit:hover, .button-hero:focus, .form-footer__button:focus, .button-modal-submit:focus {
+.hero__button:hover, .form-page-footer__button:hover, .modal__button-submit:hover, .hero__button:focus, .form-page-footer__button:focus, .modal__button-submit:focus {
   background-color: #188ce8;
 }
 
-.button-hero {
+.hero__button {
   font-family: inherit;
   padding: 10px 32px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.botton-nav-portfolio {
+.filters__botton {
   cursor: pointer;
   background-color: #f5f4fa;
   font-family: inherit;
@@ -226,7 +226,7 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.botton-nav-portfolio:hover, .botton-nav-portfolio:focus {
+.filters__botton:hover, .filters__botton:focus {
   background-color: #2196f3;
   color: #ffffff;
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -234,7 +234,7 @@ body {
   border-radius: 4px;
 }
 
-.form-footer__button {
+.form-page-footer__button {
   position: relative;
   padding-left: 28px;
   padding-right: 28px;
@@ -249,7 +249,7 @@ body {
   fill: #ffffff;
 }
 
-.button-modal-close {
+.modal__button-close {
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -265,12 +265,12 @@ body {
   cursor: pointer;
 }
 
-.button-modal-close:focus .modal-icon-close,
-.button-modal-close:hover .modal-icon-close {
+.modal__button-close:focus .modal__icon-close,
+.modal__button-close:hover .modal__icon-close {
   fill: #2196f3;
 }
 
-.modal-icon-close {
+.modal__icon-close {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -280,7 +280,7 @@ body {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button-modal-submit {
+.modal__button-submit {
   padding: 10px 55px;
   margin-left: auto;
   margin-right: auto;
@@ -308,7 +308,7 @@ body {
   padding-bottom: 0;
 }
 
-.workman--social {
+.team--social {
   margin-top: 16px;
 }
 
@@ -355,11 +355,11 @@ body {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header {
+.page-header {
   border: 1px solid #ececec;
 }
 
-.header__box {
+.page-header__box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -373,7 +373,7 @@ body {
   padding-bottom: 94px;
 }
 
-.portfolio-nav__list {
+.filters__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -386,11 +386,11 @@ body {
   margin-bottom: 50px;
 }
 
-.portfolio-nav__list .portfolio-nav__item:not(:first-child) {
+.filters__list .filters__item:not(:first-child) {
   margin-left: 8px;
 }
 
-.project-direction__list {
+.project__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -401,7 +401,7 @@ body {
   margin-top: -30px;
 }
 
-.project-direction__item {
+.project__item {
   -ms-flex-preferred-size: calc((100% - 90px) / 3);
       flex-basis: calc((100% - 90px) / 3);
   border: 1px solid #eeeeee;
@@ -411,7 +411,7 @@ body {
   margin-top: 30px;
 }
 
-.project-direction__link {
+.project__link {
   display: block;
   -webkit-transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -419,24 +419,24 @@ body {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.project-direction__link:focus, .project-direction__link:hover {
+.project__link:focus, .project__link:hover {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.project-direction__link:hover .project-direction__box-img::before,
-.project-direction__link:hover .project-direction__text-overley {
+.project__link:hover .project__box-img::before,
+.project__link:hover .project__text-overley {
   -webkit-transform: translateY(0);
           transform: translateY(0);
   /* opacity: 1; */
 }
 
-.project-direction__box-img {
+.project__box-img {
   position: relative;
   overflow: hidden;
 }
 
-.project-direction__text-overley {
+.project__text-overley {
   position: absolute;
   /* top: 50%;
   left: 50%;
@@ -460,7 +460,7 @@ body {
   /* opacity 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
-.project-direction__box {
+.project__box {
   width: 100%;
   background: #ffffff;
   /* border: 1px solid #eeeeee;
@@ -471,7 +471,7 @@ body {
   padding-top: 20px;
 }
 
-.project-direction__title {
+.project__title {
   margin-top: 0px;
   margin-bottom: 4px;
   font-weight: 700;
@@ -481,7 +481,7 @@ body {
   color: #212121;
 }
 
-.project-direction__text {
+.project__text {
   margin-top: 0px;
   margin-bottom: 0px;
   font-size: 16px;
@@ -490,14 +490,14 @@ body {
   color: #757575;
 }
 
-/* Секция footer */
-.footer {
+/* Секция page-footer */
+.page-footer {
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
-.footer__container {
+.page-footer__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -506,7 +506,7 @@ body {
           align-items: baseline;
 }
 
-.footer__text {
+.page-footer__text {
   display: inline-block;
   margin-bottom: 20px;
   font-weight: 700;
@@ -517,21 +517,21 @@ body {
   color: #ffffff;
 }
 
-.footer__box-social {
+.page-footer__box-social {
   margin-left: 70px;
 }
 
-.footer__box-form {
+.page-footer__box-form {
   margin-left: 93px;
 }
 
-.form-footer {
+.form-page-footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.form-footer__input {
+.form-page-footer__input {
   min-width: 350px;
   min-height: 50px;
   margin-right: 12px;
@@ -549,11 +549,11 @@ body {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-footer__input:focus {
+.form-page-footer__input:focus {
   border-color: #2196f3;
 }
 
-.form-footer__input::-webkit-input-placeholder {
+.form-page-footer__input::-webkit-input-placeholder {
   font-size: 16px;
   line-height: 1.25;
   display: -webkit-box;
@@ -564,7 +564,7 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.form-footer__input:-ms-input-placeholder {
+.form-page-footer__input:-ms-input-placeholder {
   font-size: 16px;
   line-height: 1.25;
   display: -ms-flexbox;
@@ -575,7 +575,7 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.form-footer__input::-ms-input-placeholder {
+.form-page-footer__input::-ms-input-placeholder {
   font-size: 16px;
   line-height: 1.25;
   display: -ms-flexbox;
@@ -586,7 +586,7 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.form-footer__input::placeholder {
+.form-page-footer__input::placeholder {
   font-size: 16px;
   line-height: 1.25;
   display: -webkit-box;

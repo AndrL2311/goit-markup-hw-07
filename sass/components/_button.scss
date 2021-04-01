@@ -21,7 +21,7 @@
 }
 
 // Кнопка секции hero
-.button-hero {
+.hero__button {
   @extend %button;
 
   font-family: inherit;
@@ -32,7 +32,7 @@
 }
 
 //  Кнопки cекции portfolio
-.botton-nav-portfolio {
+.filters__botton {
   cursor: pointer;
   background-color: $botton-background-color;
   font-family: inherit;
@@ -63,7 +63,7 @@
 }
 
 // Кнопка секции footer
-.form-footer__button {
+.form-page-footer__button {
   @extend %button;
 
   position: relative;
@@ -83,7 +83,7 @@
 
 // Кнопки модальной формы
 //  Кнопка закрытия
-.button-modal-close {
+.modal__button-close {
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -98,13 +98,13 @@
   margin: 8px 8px;
   cursor: pointer;
 
-  &:focus .modal-icon-close,
-  &:hover .modal-icon-close {
+  &:focus .modal__icon-close,
+  &:hover .modal__icon-close {
     fill: $accent-color;
   }
 }
 
-.modal-icon-close {
+.modal__icon-close {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -113,7 +113,7 @@
 }
 
 // Кнопка отправки информации
-.button-modal-submit {
+.modal__button-submit {
   @extend %button;
 
   padding: 10px 55px;

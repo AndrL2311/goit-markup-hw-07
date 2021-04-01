@@ -1,16 +1,16 @@
-/* Секция footer */
-.footer {
+/* Секция page-footer */
+.page-footer {
   background-color: $footer-background-color;
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
-.footer__container {
+.page-footer__container {
   display: flex;
   align-items: baseline;
 }
 
-.footer__text {
+.page-footer__text {
   display: inline-block;
   margin-bottom: 20px;
 
@@ -23,18 +23,18 @@
   color: $color1;
 }
 
-.footer__box-social {
+.page-footer__box-social {
   margin-left: 70px;
 }
 
-.footer__box-form {
+.page-footer__box-form {
   margin-left: 93px;
 }
 // Форма рассылки писем
-.form-footer {
+.form-page-footer {
   display: flex;
 }
-.form-footer__input {
+.form-page-footer__input {
   min-width: 350px;
   min-height: 50px;
   margin-right: 12px;
